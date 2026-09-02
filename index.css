@@ -219,7 +219,7 @@ textarea {
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 770px;
+  /* width: 770px; */
 }
 
 footer {
@@ -299,7 +299,7 @@ form {
     width: 200px;
   }
 
-  textarea {
+  /* textarea {
     padding: 20px 40px;
     border-radius: 10px;
     border: 1px solid grey;
@@ -307,7 +307,7 @@ form {
     justify-content: center;
     display: flex;
     width: 50px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
