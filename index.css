@@ -38,7 +38,7 @@ img {
 }
 
 nav {
-  background-color: rgb(61, 61, 216);
+  background-color: #2864c7;
   width: auto;
   color: #fff;
   display: flex;
@@ -249,7 +249,7 @@ form {
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* mobile screen */
@@ -280,7 +280,7 @@ form {
   }
 
   .form-group > input {
-    /* width: 100%; */
+    width: 100%;
     box-sizing: border-box;
     display: block;
   }
@@ -290,6 +290,23 @@ form {
     border-radius: 10px;
     border: 1px solid grey;
     width: 310px;
+  }
+
+  ul {
+    gap: 10px;
+    display: flex;
+    list-style: none;
+    width: 200px;
+  }
+
+  textarea {
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 600px;
   }
 }
 
